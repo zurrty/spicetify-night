@@ -1,0 +1,52 @@
+:root {
+	--bg-gradient: linear-gradient(var(--spice-button-active), var(--spice-button));
+}
+.shadow {
+    background-color: transparent;
+}
+.main-trackList-trackListRow.SzCNXJJQz7BiDOO0B2Xv .main-trackList-rowTitle, .main-trackList-trackListRow.SzCNXJJQz7BiDOO0B2Xv .main-trackList-rowMarker {
+	color: var(--spice-button);
+}
+
+.main-playButton-PlayButton, .main-playPauseButton-button .HbKLiGoYM4dpuK8L4TMX {
+	transition: transform 0.2s;
+}
+.HbKLiGoYM4dpuK8L4TMX:hover {
+	transform: scale(110%);
+	color: var(--spice-button-active);
+}
+.main-playButton-PlayButton:hover, .main-playPauseButton-button:hover {
+	transform: scale(110%);
+	background: var(--spice-button-active);
+}
+.main-trackList-trackListRow > .main-trackList-rowSectionStart > img {
+	transition: transform 0.1s;
+	border-radius: 4px;
+	transform: scale(100%);
+}
+.main-trackList-trackListRow:hover > .main-trackList-rowSectionStart > img {
+	transform: scale(110%);
+}
+.main-tag-container[aria-label="Explicit"] {
+	content: "x";
+}
+.tippy-box[data-theme~=activation], .tippy-arrow {
+	color: var(--spice-card) !important; 
+	background-color: var(--spice-card) !important; 
+}
+
+._APVWqivXc4YqgsnpFkP.HbKLiGoYM4dpuK8L4TMX > svg {
+	color: var(--spice-button);
+}
+.main-trackList-playingIcon {
+	content: url("https://files.catbox.moe/7wb7ii.gif");
+	image-rendering: pixelated; /* makes the playing icon gif thing look sharper */
+}
+
+.x-progressBar-progressBarBg {
+	background: var(--spice-button);
+}
+
+.main-entityHeader-image, .main-entityHeader-shadow, .main-editImageButton-image, .main-editImageButton-overlay {
+	border-radius: 8px;
+}

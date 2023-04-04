@@ -1,3 +1,10 @@
 # spicetify-night
 
-my custom theme for spicetify
+custom dark theme for [spicetify](https://spicetify.app/)
+
+## available color schemes
+```
+base
+purple
+orange
+```

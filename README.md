@@ -8,3 +8,7 @@ base
 purple
 orange
 ```
+
+
+## preview
+![Theme preview image](/preview.png)
